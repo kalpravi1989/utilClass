@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5624" started-at="2022-12-22T22:44:08 CST" finished-at="2022-12-22T22:44:14 CST">
+  <suite name="Default suite" duration-ms="5155" started-at="2023-01-01T18:19:54 CST" finished-at="2023-01-01T18:19:59 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5624" started-at="2022-12-22T22:44:08 CST" finished-at="2022-12-22T22:44:14 CST">
+    <test name="Default test" duration-ms="5155" started-at="2023-01-01T18:19:54 CST" finished-at="2023-01-01T18:19:59 CST">
       <class name="testcase.TC_001">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.TC_001@18bf3d14]" name="setup" is-config="true" duration-ms="5365" started-at="2022-12-22T22:44:08 CST" finished-at="2022-12-22T22:44:14 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.TC_001@18bf3d14]" name="setup" is-config="true" duration-ms="4657" started-at="2023-01-01T18:19:54 CST" finished-at="2023-01-01T18:19:58 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testcase.TC_001@18bf3d14]" name="test" duration-ms="228" started-at="2022-12-22T22:44:14 CST" finished-at="2022-12-22T22:44:14 CST">
+        <test-method status="PASS" signature="test()[pri:0, instance:testcase.TC_001@18bf3d14]" name="test" duration-ms="360" started-at="2023-01-01T18:19:58 CST" finished-at="2023-01-01T18:19:59 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.TC_001@18bf3d14]" name="teardown" is-config="true" duration-ms="0" started-at="2022-12-22T22:44:14 CST" finished-at="2022-12-22T22:44:14 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcase.TC_001@18bf3d14]" name="teardown" is-config="true" duration-ms="109" started-at="2023-01-01T18:19:59 CST" finished-at="2023-01-01T18:19:59 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

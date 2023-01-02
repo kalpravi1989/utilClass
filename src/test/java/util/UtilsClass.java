@@ -80,6 +80,24 @@ public class UtilsClass extends BaseClass {
 		}
 	}
 
+	public void selectDropDownUsingIndex(WebElement ele, int index) {
+		try {
+			new Select(ele).selectByIndex(index);
+			;
+
+		} catch (WebDriverException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void selectDropDownUsingValue(WebElement ele, String value) {
+		try {
+			new Select(ele).selectByValue(value);
+
+		} catch (WebDriverException e) {
+			e.printStackTrace();
+		}
+	}
 	public void deSelectDropDownUsingVisibleText(WebElement ele, String value) {
 		try {
 			new Select(ele).deselectByVisibleText(value);
